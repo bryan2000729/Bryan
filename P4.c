@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main(){
+int main(void){
 	char M;
 	
 	printf("Enter character: ");
@@ -32,8 +32,6 @@ else
 }
 }
 }
-	printf("Character entered: ");
 	putchar(M);
 	printf("\n");
-	return (0);
 }

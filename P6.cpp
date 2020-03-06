@@ -1,16 +1,15 @@
 #include<stdio.h>
 
 int main(void){
-int x, i=0,n, suma=0;
-float P;
+float x, i=0,n, suma=0, P;
 printf("Introduce n: ");
-scanf("%d", &n);
+scanf("%f", &n);
 i=0;
 suma=0;
 if(n>=0){
 	while(i<=n){
 		printf("Introduce x: ");
-		scanf("%d", &x);
+		scanf("%f", &x);
 		suma=suma+x;
 		i++;
 		}
